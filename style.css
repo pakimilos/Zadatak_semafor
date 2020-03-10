@@ -15,8 +15,8 @@
 
 .circle {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    padding-top: 10%;
     border-radius: 50%;
 }
 
@@ -29,32 +29,4 @@
 
 .yellow {
     background: yellow;
-}
-
-@media only screen and (max-width: 916px) {
-    .circle {
-        width: 50px;
-        height: 50px;
-    }
-}
-
-@media only screen and (max-width: 516px) {
-    .circle {
-        width: 30px;
-        height: 30px;
-    }
-}
-
-@media only screen and (max-width: 316px) {
-    .circle {
-        width: 15px;
-        height: 15px;
-    }
-}
-
-@media only screen and (max-width: 160px) {
-    .circle {
-        width: 5px;
-        height: 5px;
-    }
 }
